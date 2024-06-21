@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4ADE2252C24072C00C9A630 /* ElektraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ADE2242C24072C00C9A630 /* ElektraApp.swift */; };
+		C4ADE2272C24072C00C9A630 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ADE2262C24072C00C9A630 /* ContentView.swift */; };
+		C4ADE2292C24073000C9A630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4ADE2282C24073000C9A630 /* Assets.xcassets */; };
+		C4ADE22C2C24073000C9A630 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4ADE22B2C24073000C9A630 /* Preview Assets.xcassets */; };
+		C4ADE2372C2407E400C9A630 /* ListOfProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ADE2362C2407E400C9A630 /* ListOfProductsView.swift */; };
+		C4ADE23A2C2407FD00C9A630 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ADE2392C2407FD00C9A630 /* ProductList.swift */; };
+		C4ADE23F2C240BED00C9A630 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ADE23E2C240BED00C9A630 /* NetworkManager.swift */; };
+		C4ADE2422C240C3500C9A630 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ADE2412C240C3500C9A630 /* Resource.swift */; };
+		C4ADE2452C240FC900C9A630 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ADE2442C240FC900C9A630 /* BaseResponse.swift */; };
+		C4ADE2482C24126200C9A630 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ADE2472C24126200C9A630 /* Pagination.swift */; };
+		C4ADE24A2C24138200C9A630 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ADE2492C24138200C9A630 /* Product.swift */; };
+		C4ADE24C2C2479C600C9A630 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ADE24B2C2479C600C9A630 /* NetworkError.swift */; };
+		C4ADE24F2C24819400C9A630 /* ListOfProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ADE24E2C24819400C9A630 /* ListOfProductsViewModel.swift */; };
+		C4ADE2532C24AC6400C9A630 /* CellProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ADE2522C24AC6400C9A630 /* CellProductListView.swift */; };
+		C4ADE2572C24B4E200C9A630 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ADE2562C24B4E200C9A630 /* Color+Extension.swift */; };
+		C4ADE2592C24C0A400C9A630 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ADE2582C24C0A400C9A630 /* ProductDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4ADE2212C24072B00C9A630 /* Elektra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elektra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4ADE2242C24072C00C9A630 /* ElektraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElektraApp.swift; sourceTree = "<group>"; };
+		C4ADE2262C24072C00C9A630 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4ADE2282C24073000C9A630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4ADE22B2C24073000C9A630 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4ADE2362C2407E400C9A630 /* ListOfProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfProductsView.swift; sourceTree = "<group>"; };
+		C4ADE2392C2407FD00C9A630 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		C4ADE23E2C240BED00C9A630 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C4ADE2412C240C3500C9A630 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		C4ADE2442C240FC900C9A630 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		C4ADE2472C24126200C9A630 /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		C4ADE2492C24138200C9A630 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C4ADE24B2C2479C600C9A630 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		C4ADE24D2C247DF600C9A630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C4ADE24E2C24819400C9A630 /* ListOfProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfProductsViewModel.swift; sourceTree = "<group>"; };
+		C4ADE2522C24AC6400C9A630 /* CellProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellProductListView.swift; sourceTree = "<group>"; };
+		C4ADE2562C24B4E200C9A630 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		C4ADE2582C24C0A400C9A630 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4ADE21E2C24072B00C9A630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4ADE2182C24072B00C9A630 = {
+			isa = PBXGroup;
+			children = (
+				C4ADE2232C24072C00C9A630 /* Elektra */,
+				C4ADE2222C24072B00C9A630 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4ADE2222C24072B00C9A630 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADE2212C24072B00C9A630 /* Elektra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4ADE2232C24072C00C9A630 /* Elektra */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADE24D2C247DF600C9A630 /* Info.plist */,
+				C4ADE2542C24B4C600C9A630 /* Utils */,
+				C4ADE23D2C240A4400C9A630 /* ServiceProvider */,
+				C4ADE23C2C240A3200C9A630 /* MasterDetail */,
+				C4ADE2242C24072C00C9A630 /* ElektraApp.swift */,
+				C4ADE2262C24072C00C9A630 /* ContentView.swift */,
+				C4ADE2282C24073000C9A630 /* Assets.xcassets */,
+				C4ADE22A2C24073000C9A630 /* Preview Content */,
+			);
+			path = Elektra;
+			sourceTree = "<group>";
+		};
+		C4ADE22A2C24073000C9A630 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADE22B2C24073000C9A630 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4ADE2352C24079400C9A630 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADE2362C2407E400C9A630 /* ListOfProductsView.swift */,
+				C4ADE24E2C24819400C9A630 /* ListOfProductsViewModel.swift */,
+				C4ADE2502C24AC3500C9A630 /* View */,
+				C4ADE2382C2407EE00C9A630 /* Model */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		C4ADE2382C2407EE00C9A630 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADE2392C2407FD00C9A630 /* ProductList.swift */,
+				C4ADE2472C24126200C9A630 /* Pagination.swift */,
+				C4ADE2492C24138200C9A630 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4ADE23B2C24097A00C9A630 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADE2582C24C0A400C9A630 /* ProductDetailView.swift */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		C4ADE23C2C240A3200C9A630 /* MasterDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADE23B2C24097A00C9A630 /* ProductDetail */,
+				C4ADE2352C24079400C9A630 /* Products */,
+			);
+			path = MasterDetail;
+			sourceTree = "<group>";
+		};
+		C4ADE23D2C240A4400C9A630 /* ServiceProvider */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADE23E2C240BED00C9A630 /* NetworkManager.swift */,
+				C4ADE2432C240FBD00C9A630 /* Model */,
+				C4ADE2402C240C1C00C9A630 /* Contants */,
+			);
+			path = ServiceProvider;
+			sourceTree = "<group>";
+		};
+		C4ADE2402C240C1C00C9A630 /* Contants */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADE24B2C2479C600C9A630 /* NetworkError.swift */,
+				C4ADE2412C240C3500C9A630 /* Resource.swift */,
+			);
+			path = Contants;
+			sourceTree = "<group>";
+		};
+		C4ADE2432C240FBD00C9A630 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADE2442C240FC900C9A630 /* BaseResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4ADE2502C24AC3500C9A630 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADE2522C24AC6400C9A630 /* CellProductListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4ADE2542C24B4C600C9A630 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADE2552C24B4D300C9A630 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C4ADE2552C24B4D300C9A630 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C4ADE2562C24B4E200C9A630 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4ADE2202C24072B00C9A630 /* Elektra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4ADE22F2C24073000C9A630 /* Build configuration list for PBXNativeTarget "Elektra" */;
+			buildPhases = (
+				C4ADE21D2C24072B00C9A630 /* Sources */,
+				C4ADE21E2C24072B00C9A630 /* Frameworks */,
+				C4ADE21F2C24072B00C9A630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elektra;
+			productName = Elektra;
+			productReference = C4ADE2212C24072B00C9A630 /* Elektra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4ADE2192C24072B00C9A630 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C4ADE2202C24072B00C9A630 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C4ADE21C2C24072B00C9A630 /* Build configuration list for PBXProject "Elektra" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4ADE2182C24072B00C9A630;
+			productRefGroup = C4ADE2222C24072B00C9A630 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4ADE2202C24072B00C9A630 /* Elektra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4ADE21F2C24072B00C9A630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ADE22C2C24073000C9A630 /* Preview Assets.xcassets in Resources */,
+				C4ADE2292C24073000C9A630 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4ADE21D2C24072B00C9A630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ADE2272C24072C00C9A630 /* ContentView.swift in Sources */,
+				C4ADE2592C24C0A400C9A630 /* ProductDetailView.swift in Sources */,
+				C4ADE23A2C2407FD00C9A630 /* ProductList.swift in Sources */,
+				C4ADE24A2C24138200C9A630 /* Product.swift in Sources */,
+				C4ADE23F2C240BED00C9A630 /* NetworkManager.swift in Sources */,
+				C4ADE2422C240C3500C9A630 /* Resource.swift in Sources */,
+				C4ADE2372C2407E400C9A630 /* ListOfProductsView.swift in Sources */,
+				C4ADE24F2C24819400C9A630 /* ListOfProductsViewModel.swift in Sources */,
+				C4ADE2482C24126200C9A630 /* Pagination.swift in Sources */,
+				C4ADE2532C24AC6400C9A630 /* CellProductListView.swift in Sources */,
+				C4ADE2452C240FC900C9A630 /* BaseResponse.swift in Sources */,
+				C4ADE2252C24072C00C9A630 /* ElektraApp.swift in Sources */,
+				C4ADE24C2C2479C600C9A630 /* NetworkError.swift in Sources */,
+				C4ADE2572C24B4E200C9A630 /* Color+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4ADE22D2C24073000C9A630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4ADE22E2C24073000C9A630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4ADE2302C24073000C9A630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Elektra/Preview Content\"";
+				DEVELOPMENT_TEAM = 3NQ6X48LC9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Elektra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elektra.mx.Elektra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4ADE2312C24073000C9A630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Elektra/Preview Content\"";
+				DEVELOPMENT_TEAM = 3NQ6X48LC9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Elektra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elektra.mx.Elektra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4ADE21C2C24072B00C9A630 /* Build configuration list for PBXProject "Elektra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4ADE22D2C24073000C9A630 /* Debug */,
+				C4ADE22E2C24073000C9A630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4ADE22F2C24073000C9A630 /* Build configuration list for PBXNativeTarget "Elektra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4ADE2302C24073000C9A630 /* Debug */,
+				C4ADE2312C24073000C9A630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4ADE2192C24072B00C9A630 /* Project object */;
+}
